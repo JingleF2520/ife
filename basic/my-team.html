@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Introduction of My Team</title>
+    <style>
+        #leftBox{
+            width: 200px;
+            float: left;
+            position: relative;
+        }
+        #rightBox{
+            width: 120px;
+            float: right;
+            box-sizing: border-box;
+        }
+        #bodyBox{
+            float: left;
+            box-sizing: border-box;
+            width: 100%;
+            position: relative;
+        }
+        #main{
+            position: absolute;
+            margin: 0px 160px 0px 220px;
+        }
+        #main>p{
+            text-indent: 2em;
+        }
+        #leftBox>h4{
+            position: absolute;
+            top: 0px;
+            left: 120px;
+        }
+        .photo{
+            /*background-color: yellow;*/
+            width: 80px;
+            height: 80px;
+        }
+        .pad{
+            padding: 20px;
+        }
+        .photoPad{
+            padding-bottom: 20px;
+        }
+        .boxBorder{
+            border: 1px solid #999;
+        }
+    </style>
+</head>
+<body>
+<div id="bodyBox" class="pad boxBorder">
+    <div id="leftBox" class="boxBorder">
+        <img class="photo pad" src="../image/team.jpg" alt="团队图片">
+        <h4>第七班</h4>
+    </div>
+    <div id="main" class="boxBorder pad">
+        <p>
+            中国目前的企业家中，或者换句话将，今天被世人所熟悉的企业家中大多数是属
+            于第一种，我们耳熟能详的那几个名字“马云，李彦宏，俞敏洪，李嘉诚，等等”
+            就拿马云来说，今天我们在很多场合通过很多方式听过他的，更有人说那是马氏
+            忽悠法，忽悠这个字眼从春晚传下来就一直被当成贬义词在用，我觉得这里有点
+            冤枉老马了，在我听过他的讲座中他说过这么一句话“中国的年轻创业者，有一百
+            个人，那么其中的九十五个会死，我们甚至看不到他们的死，他们就死了，剩下的
+            五个中有四个是我们看着他死的，只有一个活了，而活着的这个不一定是这一百个
+            人中最聪明的，也不一定是最有能力的，但是这个人活下来了”成功不一定属于最聪
+            明和最能干的那个人！！！
+        </p>
+    </div>
+    <div id="rightBox" class="boxBorder pad">
+        <div class="photo photoPad"><img class="photo" src="../image/kakaxi.png" alt=""></div>
+        <div class="photo photoPad"><img class="photo" src="../image/zuozhu.png" alt=""></div>
+        <div class="photo photoPad"><img class="photo" src="../image/naruto.png" alt=""></div>
+        <div class="photo"><img class="photo" src="../image/xiaoying.png" alt=""></div>
+    </div>
+</div>
+</body>
+</html>

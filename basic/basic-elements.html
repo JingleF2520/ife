@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Basic Element of HTML</title>
+</head>
+<body>
+    <!-- 采用标题一道标题六来输出文本-->
+    <h1>年复一年</h1>
+    <h2>月复一月</h2>
+    <h3>日复一日</h3>
+    <h4>早餐</h4>
+    <h5>午餐</h5>
+    <h6>晚餐</h6>
+    <!-- 输出一条水平线-->
+    <hr />
+    <!-- 使用三个span定义三节-->
+    <span>土豆</span><span>萝卜</span><span>白菜</span>
+    <br />
+    <div>大土豆</div>
+    <div>大萝卜</div>
+    <div>大白菜</div>
+    <br />
+    <!-- 使用三个p定义段落-->
+    <p>超大土豆</p>
+    <p>超大萝卜</p>
+    <p>超大白菜</p>
+    <span><b>加粗文本</b></span><br>
+    <span><i>斜体文本</i></span><br>
+    <span><b><i>粗斜体文本</i></b></span><br>
+    <span><em>被强调的文本</em></span><br>
+    <span><big>大号字体</big></span><br>
+    <span><strong>加粗文本</strong></span>
+    <p><strong>加粗文本</strong></p>
+    <span><small>小号字体文本</small></span>
+    <p>普通文本<sup>上标</sup></p>
+    <span>普通文本<strong><sub>下标加粗</sub></strong></span><br>
+    <bdo dir="ltr">从左至右</bdo><br>
+    <bdo dir="rtl">从右至左</bdo><br>
+    <a name="test"></a>
+    <a href="http://www.baidu.com">在本窗口中打开百度</a><br>
+    <a href="http://www.baidu.com" target="_blank">在新窗口中打开百度</a><br>
+    <!-- 为图片添加链接-->
+    <a href="http://www.baidu.com"><img src="../img/01.jpg" alt="百度"></a><br>
+    <!-- 基于相对路径指定另一个资源-->
+    <a href="12text.html">文本格式化标签</a><br>
+    <a href="14anchor.html#test">定位到test锚点</a><br>
+    <a href="news:yeeku.html">HTML Newsgroup</a><br>
+    <a href="ftp://www.crazyit.org/tomcat.rar">下载</a><br>
+    <a href="mailto:kongyeeku@163.com">写信给我</a>
+    <!-- 定义无序列表-->
+    <ul>
+        <li>土豆</li>
+        <li>萝卜</li>
+        <li>白菜</li>
+    </ul>
+    <ol start="2" type="a">
+        <li>苹果</li>
+        <li>菠萝</li>
+        <li>橘子</li>
+    </ol>
+    <dl>
+        <!-- 定义标题列表项-->
+        <dt>歌名</dt>
+        <dd>告白气球</dd>
+        <dd>前前前世</dd>
+    </dl>
+    <img src="../img/01.jpg" width="300" height="120" alt="疯狂Java"/><br/>
+    <!-- 定义图片，使指定的图片映射-->
+    <img src="../img/01.jpg" width="200" height="60" alt="疯狂"/><br/>
+    <!-- 定义图片映射-->
+    <map name="test" id="test">
+        <area shape="circle" coords="57,55,25" href="http://www.lengang.org" alt="leegang.org"/>
+    </map>
+    <table style="width: 400px" border="1">
+        <caption><b>今日课程</b></caption>
+        <thead>
+        <tr>
+            <th>课程</th>
+            <th>时间</th>
+        </tr>
+        </thead>
+        <tfoot>
+        <tr>
+            <td colspan="2">1月10日至2月2日</td>
+        </tr>
+        </tfoot>
+        <tbody>
+        <tr>
+            <td>语文</td>
+            <td>上午</td>
+        </tr>
+        <tr>
+            <td>数学</td>
+            <td>下午</td>
+        </tr>
+        </tbody>
+    </table>
+</body>
+</html>
